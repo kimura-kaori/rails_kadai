@@ -8,13 +8,15 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
-  <header>
-
-    
+    <header>
+    <h1 class="headline">
+      <a>サンプルのサイト</a>
+    </h1>
   </header>
     <%= yield %>
-  <footer></footer>
+  <footer>
+    <p>20220411</p>    
+  </footer>
   </body>
 </html>

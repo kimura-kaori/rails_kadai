@@ -1,6 +1,3 @@
-config.time_zone = 'Tokyo'
-config.active_record.default_timezone = :local
-
 require_relative 'boot'
 
 require 'rails/all'
@@ -20,3 +17,6 @@ module RailsKadai
     # the framework and any gems in your application.
   end
 end
+
+# config.time_zone = 'Tokyo'
+# config.active_record.default_timezone = :local
